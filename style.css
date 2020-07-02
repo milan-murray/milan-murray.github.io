@@ -84,56 +84,14 @@ tr:nth-child(even) {
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     body {
         background-color: white;
         margin-top: 0em;
         margin-left: 0em;
         margin-right: 0em;
         margin-bottom: 0em;
-        font-size: 0.8em;
-    }
-
-    main {
-        border-radius: 0em;
-    }
-
-    table {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 640px) {
-    body {
-        background-color: white;
-        margin-top: 0em;
-        margin-left: 0em;
-        margin-right: 0em;
-        margin-bottom: 0em;
-        font-size: 0.7em;
-    }
-
-    main {
-        border-radius: 0em;
-    }
-
-    table {
-        width: 100%;
-    }
-
-    a {
-        font-size: 0.8em;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    body {
-        background-color: white;
-        margin-top: 0em;
-        margin-left: 0em;
-        margin-right: 0em;
-        margin-bottom: 0em;
-        font-size: 0.7em;
+        font-size: 1.6em;
     }
 
     main {
@@ -147,17 +105,16 @@ tr:nth-child(even) {
     a {
         font-size: 0.7em;
     }
-
 }
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 900px) {
     body {
         background-color: white;
         margin-top: 0em;
         margin-left: 0em;
         margin-right: 0em;
         margin-bottom: 0em;
-        font-size: 0.65em;
+        font-size: larger;
     }
 
     main {
@@ -169,6 +126,6 @@ tr:nth-child(even) {
     }
 
     a {
-        font-size: 0.6em;
+        display: none;
     }
 }
