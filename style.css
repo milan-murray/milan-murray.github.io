@@ -33,8 +33,8 @@ h1 {
 }
 
 #navbar {
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
 }
 
 nav {
@@ -45,6 +45,7 @@ a {
     padding-left: 0.5%;
     padding-right: 0.5%;
     text-decoration: none;
+    font-size: 139%;
 }
 
 a:link {
@@ -91,7 +92,7 @@ tr:nth-child(even) {
         margin-left: 0em;
         margin-right: 0em;
         margin-bottom: 0em;
-        font-size: 1.6em;
+        font-size: 160%;
     }
 
     main {
@@ -103,18 +104,18 @@ tr:nth-child(even) {
     }
 
     a {
-        font-size: 0.7em;
+        font-size: 80%;
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 960px) {
     body {
         background-color: white;
         margin-top: 0em;
         margin-left: 0em;
         margin-right: 0em;
         margin-bottom: 0em;
-        font-size: larger;
+        font-size: 160%;
     }
 
     main {
