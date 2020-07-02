@@ -1,0 +1,174 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(27, 6, 51), rgb(9, 1, 15));
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-family: Roboto;
+}
+
+main    {
+    background-color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+#text-center {
+    text-align: center;
+}
+
+#tab {
+    margin-left: 2.5%;
+}
+
+#navbar {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(16, 75, 170);
+}
+
+a:visited {
+    color: rgb(16, 75, 170);
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+    text-align: justify;
+    border: 0.1em solid #dddddd;
+    padding: 0.8em;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+@media only screen and (min-width: 1920px) {
+    body {
+        font-size: 1.5em;
+    }
+
+    a {
+        font-size: 135%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color: white;
+        margin-top: 0em;
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-bottom: 0em;
+        font-size: 0.8em;
+    }
+
+    main {
+        border-radius: 0em;
+    }
+
+    table {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        background-color: white;
+        margin-top: 0em;
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-bottom: 0em;
+        font-size: 0.7em;
+    }
+
+    main {
+        border-radius: 0em;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    a {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    body {
+        background-color: white;
+        margin-top: 0em;
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-bottom: 0em;
+        font-size: 0.7em;
+    }
+
+    main {
+        border-radius: 0em;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    a {
+        font-size: 0.7em;
+    }
+
+}
+
+@media only screen and (max-width: 410px) {
+    body {
+        background-color: white;
+        margin-top: 0em;
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-bottom: 0em;
+        font-size: 0.65em;
+    }
+
+    main {
+        border-radius: 0em;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    a {
+        font-size: 0.6em;
+    }
+}
