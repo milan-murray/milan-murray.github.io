@@ -20,21 +20,17 @@ main    {
     border-radius: 1em;
 }
 
-h1 {
+#PC, #MOBILE {
     text-align: center;
 }
 
-#text-center {
+#text-centered {
     text-align: center;
+    font-size: 130%;
 }
 
 #tab {
     margin-left: 2.5%;
-}
-
-#navbar {
-    margin-left: 0.5%;
-    margin-right: 0.5%;
 }
 
 nav {
@@ -42,10 +38,10 @@ nav {
 }
 
 a {
-    padding-left: 0.5%;
-    padding-right: 0.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
     text-decoration: none;
-    font-size: 139%;
+    font-size: 140%;
 }
 
 a:link {
@@ -62,7 +58,7 @@ a:hover {
 
 table {
     border-collapse: collapse;
-    width: 60%;
+    width: 50%;
 }
 
 td, th {
@@ -73,11 +69,15 @@ td, th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
-  }
+}
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1930px) {
+    #MOBILE {
+        display: none;
+    }
+    
     body {
-        font-size: 1.5em;
+        font-size: 150%;
     }
 
     a {
@@ -85,14 +85,28 @@ tr:nth-child(even) {
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1350px) {
+    #MOBILE {
+        display: none;
+    }
+
+    #text-centered {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    #PC {
+        display: none;
+    }
+    
     body {
         background-color: white;
         margin-top: 0em;
         margin-left: 0em;
         margin-right: 0em;
         margin-bottom: 0em;
-        font-size: 160%;
+        font-size: 170%;
     }
 
     main {
@@ -103,12 +117,16 @@ tr:nth-child(even) {
         width: 100%;
     }
 
-    a {
-        font-size: 80%;
+    nav {
+        display: none;
     }
 }
 
 @media only screen and (max-width: 960px) {
+    #PC {
+        display: none;
+    }
+    
     body {
         background-color: white;
         margin-top: 0em;
@@ -126,7 +144,7 @@ tr:nth-child(even) {
         width: 100%;
     }
 
-    a {
+    nav {
         display: none;
     }
 }
