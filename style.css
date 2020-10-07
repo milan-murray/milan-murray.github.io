@@ -84,7 +84,7 @@ tr:nth-child(even) {
     }
 }
 
-@media only screen and (min-width: 1350px) {
+@media only screen and (min-width: 1200px) {
     #MOBILE {
         display: none;
     }
@@ -94,7 +94,7 @@ tr:nth-child(even) {
     }
 }
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1199px) {
     #PC {
         display: none;
     }
