@@ -1,3 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
+
+#scroll_to_top_btn  {
+    display: none;
+}
