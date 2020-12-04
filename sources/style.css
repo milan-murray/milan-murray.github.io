@@ -5,3 +5,7 @@ html {
 #scroll_to_top_btn  {
     display: none;
 }
+
+#btnsTop {
+   list-style-type: none;
+}
