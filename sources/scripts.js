@@ -5,7 +5,7 @@ function changeToLightMode() {
     console.log("Dark mode: " + darkMode);
     if (darkMode == true) {
         // document.getElementById("nav").className = "navbar navbar-expand-lg bg-light navbar-light";
-        document.getElementById("body").className = "container card bg-light my-3";
+        document.getElementById("card").className = "card bg-light my-3";
         document.getElementsByClassName("text-light text-center")[0].className = "text-dark text-center";
         document.getElementsByClassName("text-light text-center")[0].className = "text-dark text-center";
         // document.getElementById("scroll_to_top_btn").className = "btn btn-dark btn-sm ml-auto m-3 fixed-bottom";
@@ -24,7 +24,7 @@ function changeToDarkMode() {
     console.log("Dark mode: " + darkMode);
     if (darkMode == false) {
         // document.getElementById("nav").className = "navbar navbar-expand-lg bg-dark navbar-dark";
-        document.getElementById("body").className = "container card bg-dark my-3";
+        document.getElementById("card").className = "card bg-dark my-3";
         document.getElementsByClassName("text-dark text-center")[0].className = "text-light text-center";
         document.getElementsByClassName("text-dark text-center")[0].className = "text-light text-center";
         // document.getElementById("scroll_to_top_btn").className = "btn btn-light btn-sm ml-auto m-3 fixed-bottom";
