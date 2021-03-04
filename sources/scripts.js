@@ -11,7 +11,7 @@ function changeToLightMode() {
         // document.getElementById("scroll_to_top_btn").className = "btn btn-dark btn-sm ml-auto m-3 fixed-bottom";
         document.getElementsByTagName("table")[0].className = "table table-striped table-bordered";
         document.getElementsByTagName("button")[2].className = "btn btn-dark btn-sm float-right";
-        document.getElementsByTagName('button')[3].className = "btn btn-light fixed-bottom ml-auto m-3 border border-dark"
+        document.getElementsByTagName('button')[3].className = "btn btn-light fixed-bottom ml-auto mr-3 mb-2 border border-dark"
         let lightTextFields = document.getElementsByClassName("text-light").length;
         for (i = 0; i < lightTextFields; i++) {
             document.getElementsByClassName("text-light")[0].className = "text-dark";
@@ -31,7 +31,7 @@ function changeToDarkMode() {
         // document.getElementById("scroll_to_top_btn").className = "btn btn-light btn-sm ml-auto m-3 fixed-bottom";
         document.getElementsByTagName("table")[0].className = "table table-dark table-striped table-bordered";
         document.getElementsByTagName("button")[2].className = "btn btn-light btn-sm float-right";
-        document.getElementsByTagName('button')[3].className = "btn btn-dark fixed-bottom ml-auto m-3 border border-light"
+        document.getElementsByTagName('button')[3].className = "btn btn-dark fixed-bottom ml-auto mr-3 mb-2 border border-light"
         let darkTextFields = document.getElementsByClassName("text-dark").length;
         for (i = 0; i < darkTextFields; i++) {
             document.getElementsByClassName("text-dark")[0].className = "text-light";
