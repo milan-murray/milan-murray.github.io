@@ -2,8 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
-#scroll_to_top_btn  {
-    display: none;
+* {
+    font-family: 'Helvetica Neue', 'Arial', 'sans-serif';
 }
 
 #btnsTop {
