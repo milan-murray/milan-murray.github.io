@@ -144,3 +144,10 @@ p.indent {
     border-radius: 0.4em;
     background-image: linear-gradient(to right, #454545, #696969);
 }
+
+@media screen and (max-width: 430px) {
+    #skill_display {
+        width: 100%;
+        height: auto;
+    }
+}
