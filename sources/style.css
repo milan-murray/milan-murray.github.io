@@ -37,7 +37,7 @@ p.indent {
     display: inline-block;
     width: 25%;
     height: 1.08em;
-    margin-top: 0.05em;
+    margin-top: 0.1em;
     margin-left: 0.05em;
     border-radius: 0.4em;
     background-image: linear-gradient(to right, darkgray, #d1d1d1);
@@ -47,7 +47,7 @@ p.indent {
     display: inline-block;
     width: 50%;
     height: 1.08em;
-    margin-top: 0.05em;
+    margin-top: 0.1em;
     margin-left: 0.05em;
     border-radius: 0.4em;
     background-image: linear-gradient(to right, darkgray, #dddddd);
@@ -57,7 +57,7 @@ p.indent {
     display: inline-block;
     width: 75%;
     height: 1.08em;
-    margin-top: 0.05em;
+    margin-top: 0.1em;
     margin-left: 0.05em;
     border-radius: 0.4em;
     background-image: linear-gradient(to right, darkgray, #ebebeb);
@@ -67,7 +67,7 @@ p.indent {
     display: inline-block;
     width: 90%;
     height: 1.08em;
-    margin-top: 0.05em;
+    margin-top: 0.1em;
     margin-left: 0.05em;
     border-radius: 0.4em;
     background-image: linear-gradient(to right, darkgray, #f0f0f0);
@@ -76,8 +76,8 @@ p.indent {
 .full_progress_darkmode {
     display: inline-block;
     width: 98.5%;
-    height: 1.08em;
-    margin-top: 0.05em;
+    height: 1.1em;
+    margin-top: 0.1em;
     margin-left: 0.05em;
     border-radius: 0.4em;
     background-image: linear-gradient(to right, darkgray, #f7f7f7);
@@ -99,7 +99,7 @@ p.indent {
     width: 25%;
     height: 1.4em;
     height: 1.08em;
-    margin-top: 0.05em;
+    margin-top: 0.1em;
     margin-left: 0.05em;
     border-radius: 0.4em;
     background-image: linear-gradient(to right, #454545, #494949);
@@ -109,7 +109,7 @@ p.indent {
     display: inline-block;
     width: 50%;
     height: 1.08em;
-    margin-top: 0.05em;
+    margin-top: 0.1em;
     margin-left: 0.05em;
     border-radius: 0.4em;
     background-image: linear-gradient(to right, #454545, #525252);
@@ -119,7 +119,7 @@ p.indent {
     display: inline-block;
     width: 75%;
     height: 1.08em;
-    margin-top: 0.05em;
+    margin-top: 0.1em;
     margin-left: 0.05em;
     border-radius: 0.4em;
     background-image: linear-gradient(to right,#454545, #565656);
@@ -129,7 +129,7 @@ p.indent {
     display: inline-block;
     width: 90%;
     height: 1.08em;
-    margin-top: 0.05em;
+    margin-top: 0.1em;
     margin-left: 0.05em;
     border-radius: 0.4em;
     background-image: linear-gradient(to right, #454545, #626262);
@@ -139,7 +139,7 @@ p.indent {
     display: inline-block;
     width: 98.5%;
     height: 1.08em;
-    margin-top: 0.05em;
+    margin-top: 0.1em;
     margin-left: 0.05em;
     border-radius: 0.4em;
     background-image: linear-gradient(to right, #454545, #696969);
