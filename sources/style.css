@@ -6,7 +6,7 @@ html {
     font-family: 'Helvetica Neue', 'Arial', 'sans-serif';
 }
 
-#btnsTop {
+#btnsTop, ul {
    list-style-type: none;
 }
 
@@ -14,13 +14,21 @@ p.indent {
     text-indent: 1.5em;
 }
 
-#skill_display {
+/* #skill_display {
     display: inline-block;
-    width: 21em;
+    width: 31%;
     height: 17.5em;
     margin-top: 1em;
     margin-left: 0.78em;
 }
+@media screen and (max-width: 430px) {
+    #skill_display {
+        width: 91%;
+        height: auto;
+    }
+} */
+
+/* 
 
 .progress_bar_darkmode {
     display: inline-block;
@@ -135,10 +143,4 @@ p.indent {
     border-radius: 0.4em;
     background-image: linear-gradient(to right, #454545, #696969);
 }
-
-@media screen and (max-width: 430px) {
-    #skill_display {
-        width: 91%;
-        height: auto;
-    }
-}
+*/

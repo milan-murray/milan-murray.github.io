@@ -5,7 +5,7 @@ let tableVisable = false;
 
 function changeToLightMode() {
     console.log("Dark mode: " + darkMode);
-    if (darkMode == true) {
+    if (darkMode) {
         // Update all the cards
         let lightCardCount = document.getElementsByClassName("card bg-dark my-3 h-100").length;
         for (i = 0; i < lightCardCount; i++) {
@@ -13,50 +13,16 @@ function changeToLightMode() {
         }
 
         // Update the centered text
-        document.getElementsByClassName("text-light text-center")[0].className = "text-dark text-center";
-        document.getElementsByClassName("text-light text-center")[0].className = "text-dark text-center";
-
-        // Update all the skill progress bar
-        let progressBarCount = document.getElementsByClassName("progress_bar_darkmode").length;
-        for (i = 0; i < progressBarCount; i++) {
-            document.getElementsByClassName("progress_bar_darkmode")[0].className = "progress_bar_lightmode"
-        }
-
-        // Update all the full% skill progress bar
-        let progressBarFullCount = document.getElementsByClassName("full_progress_darkmode").length;
-        for (i = 0; i < progressBarFullCount; i++) {
-            document.getElementsByClassName("full_progress_darkmode")[0].className = "full_progress_lightmode"
-        }
-
-        // Update all the ninety% skill progress bar
-        let progressBarNinetyCount = document.getElementsByClassName("ninety_per_progress_darkmode").length;
-        for (i = 0; i < progressBarNinetyCount; i++) {
-            document.getElementsByClassName("ninety_per_progress_darkmode")[0].className = "ninety_per_progress_lightmode"
-        }
-
-        // Update all the quarter_to% skill progress bar
-        let progressBarQuarterToCount = document.getElementsByClassName("quarter_to_progress_darkmode").length;
-        for (i = 0; i < progressBarQuarterToCount; i++) {
-            document.getElementsByClassName("quarter_to_progress_darkmode")[0].className = "quarter_to_progress_lightmode"
-        }
-
-        // Update all the half% skill progress bar
-        let progressBarHalfCount = document.getElementsByClassName("half_progress_darkmode").length;
-        for (i = 0; i < progressBarHalfCount; i++) {
-            document.getElementsByClassName("half_progress_darkmode")[0].className = "half_progress_lightmode"
-        }
-
-        // Update all the quarter% skill progress bar
-        let progressBarQuarterCount = document.getElementsByClassName("quarter_progress_darkmode").length;
-        for (i = 0; i < progressBarQuarterCount; i++) {
-            document.getElementsByClassName("quarter_progress_darkmode")[0].className = "quarter_progress_lightmode"
-        }
+		let centeredTextCount = document.getElementsByClassName("text-light text-center").length;
+        for (i = 0; i < centeredTextCount; i++) {
+			document.getElementsByClassName("text-light text-center")[0].className = "text-dark text-center";
+		}
 
         // Update the results table
         document.getElementsByTagName("table")[0].className = "table table-striped table-bordered";
 
         // Update the result toggle button
-        document.getElementsByTagName("button")[2].className = "btn btn-dark btn-sm float-right";
+        document.getElementsByTagName("button")[2].className = "btn btn-dark btn-sm float-end";
         // Update the download button
         document.getElementsByTagName('button')[3].className = "btn btn-light fixed-bottom ml-auto mr-3 mb-2 border border-dark"
         
@@ -84,51 +50,17 @@ function changeToDarkMode() {
             document.getElementsByClassName("card bg-light my-3 h-100")[0].className = "card bg-dark my-3 h-100";
         }
 
-        // Update the centered text
-        document.getElementsByClassName("text-dark text-center")[0].className = "text-light text-center";
-        document.getElementsByClassName("text-dark text-center")[0].className = "text-light text-center";
-
-        // Update all the skill progress bar
-        let progressBarCount = document.getElementsByClassName("progress_bar_lightmode").length;
-        for (i = 0; i < progressBarCount; i++) {
-            document.getElementsByClassName("progress_bar_lightmode")[0].className = "progress_bar_darkmode"
-        }
-
-        // Update all the full% skill progress bar
-        let progressBarFullCount = document.getElementsByClassName("full_progress_lightmode").length;
-        for (i = 0; i < progressBarFullCount; i++) {
-            document.getElementsByClassName("full_progress_lightmode")[0].className = "full_progress_darkmode"
-        }
-
-        // Update all the ninety% skill progress bar
-        let progressBarNinetyCount = document.getElementsByClassName("ninety_per_progress_lightmode").length;
-        for (i = 0; i < progressBarNinetyCount; i++) {
-            document.getElementsByClassName("ninety_per_progress_lightmode")[0].className = "ninety_per_progress_darkmode"
-        }
-
-        // Update all the quarter_to% skill progress bar
-        let progressBarQuarterToCount = document.getElementsByClassName("quarter_to_progress_lightmode").length;
-        for (i = 0; i < progressBarQuarterToCount; i++) {
-            document.getElementsByClassName("quarter_to_progress_lightmode")[0].className = "quarter_to_progress_darkmode"
-        }
-
-        // Update all the half% skill progress bar
-        let progressBarHalfToCount = document.getElementsByClassName("half_progress_lightmode").length;
-        for (i = 0; i < progressBarHalfToCount; i++) {
-            document.getElementsByClassName("half_progress_lightmode")[0].className = "half_progress_darkmode"
-        }
-
-        // Update all the quarter% skill progress bar
-        let progressBarQuarterCount = document.getElementsByClassName("quarter_progress_lightmode").length;
-        for (i = 0; i < progressBarQuarterCount; i++) {
-            document.getElementsByClassName("quarter_progress_lightmode")[0].className = "quarter_progress_darkmode"
-        }
+		// Update the centered text
+		let centeredTextCount = document.getElementsByClassName("text-dark text-center").length;
+        for (i = 0; i < centeredTextCount; i++) {
+			document.getElementsByClassName("text-dark text-center")[0].className = "text-dark text-center";
+		}
 
         // Update the results table
         document.getElementsByTagName("table")[0].className = "table table-dark table-striped table-bordered";
 
         // Update the result toggle button
-        document.getElementsByTagName("button")[2].className = "btn btn-light btn-sm float-right";
+        document.getElementsByTagName("button")[2].className = "btn btn-light btn-sm float-end";
         // Update the download button
         document.getElementsByTagName('button')[3].className = "btn btn-dark fixed-bottom ml-auto mr-3 mb-2 border border-light"
         
