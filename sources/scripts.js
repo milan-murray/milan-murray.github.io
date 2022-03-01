@@ -27,7 +27,7 @@ function changeToLightMode() {
 		// document.getElementsByTagName("button")[2].className = "btn btn-dark btn-sm float-end";
 		
 		// Update the download button
-		document.getElementsByTagName('button')[2].className = "btn btn-dark fixed-bottom border border-light download-btn"
+		// document.getElementsByTagName('button')[2].className = "mb-3 btn btn-dark border border-light download-btn"
 
 		// Update all text
 		let lightTextCount = document.getElementsByClassName("text-light").length;
@@ -68,7 +68,7 @@ function changeToDarkMode() {
 		// document.getElementsByTagName("button")[2].className = "btn btn-light btn-sm float-end";
 		
 		// Update the download button
-		document.getElementsByTagName('button')[2].className = "btn btn-light fixed-bottom border border-dark download-btn"
+		// document.getElementsByTagName('button')[2].className = "mb-3 btn btn-light border border-dark download-btn"
 
 		// Update all text
 		let darkTextFields = document.getElementsByClassName("text-dark").length;
