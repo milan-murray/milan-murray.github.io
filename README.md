@@ -4,3 +4,4 @@
 
 ## TODO:
 - Update content to include experience of 2022
+- Update dark mode to use 'prefers-color-scheme'
