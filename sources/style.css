@@ -2,12 +2,17 @@ html {
 	scroll-behavior: smooth;
 }
 
-hr {
+hr.no-m {
+	width: 99.8%;
 	margin: 0;
 }
 
+li {
+	list-style: inside;
+}
+
 * {
-	font-family: 'Helvetica', 'Arial', 'sans-serif';
+	font-family: 'Lato', sans-serif;
 }
 
 .card {
@@ -78,8 +83,16 @@ p.indent {
 	border-style: solid;
 	padding: 1em;
 	margin-top: 0.3em;
-	margin-left: 0em;
-	margin-right: 0em;
+}
+
+hr {
+	width: 80%;
+	border: 0.6px solid rgb(135, 135, 135);
+	background-color: rgb(135, 135, 135);
+}
+
+.card.shadow {
+	box-shadow: 0 0 3em #2b2b2b;
 }
 
 .btn-footer-colour {
@@ -96,7 +109,7 @@ p.indent {
 }
 
 .bg-secondary {
-	background-color: rgb(44, 50, 55);
+	background-color: rgb(51, 58, 64);
 }
 
 .bg-main {
@@ -109,4 +122,40 @@ p.indent {
 
 .btn-footer-bg {
 	background-image: radial-gradient(rgb(250, 250, 250), rgb(237, 239, 241));
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    .bg-secondary {
+		background-color: rgb(95, 103, 110);
+	}
+	
+	.bg-main {
+		background-color: rgb(47, 53, 58);
+	}
+	
+	.text-colour {
+		color: rgb(245, 245, 245);
+	}
+	
+	.bg-card-header {
+		background-image: radial-gradient(rgb(47, 53, 58), rgb(42, 47, 52));
+	}
+	
+	.btn-footer-bg {
+		background-image: radial-gradient(rgb(47, 53, 58), rgb(42, 47, 52));
+	}
+	
+	.btn-footer-colour {
+		background-color: rgb(47, 53, 58);
+		border-color: rgb(161, 170, 178);
+	}
+	
+	.btn-footer:hover {
+		background-color: rgb(65, 72, 78);
+	}
+	
+	.card.shadow {
+		box-shadow: 0 0 3em #43464a;
+	}
 }
