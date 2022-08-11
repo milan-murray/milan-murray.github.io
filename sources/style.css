@@ -7,12 +7,13 @@ hr.no-m {
 	margin: 0;
 }
 
-li {
-	list-style: inside;
-}
-
 * {
 	font-family: 'Lato', sans-serif;
+}
+
+body {
+	padding-left: 3%;
+	padding-right: 3%;
 }
 
 .card {
@@ -59,10 +60,11 @@ li {
 }
 
 .container {
-	margin-left: 3em;
-	margin-right: 3em;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 2em;
 	margin-bottom: 2em;
+	max-width: 70em;
 }
 
 p.indent {
