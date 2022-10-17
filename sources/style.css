@@ -73,13 +73,14 @@ p.indent {
 
 .card-footer {
 	border-radius: 0 0 0.2em 0.2em;
-	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.75em;
 }
 
 .display-inline-block {
 	display: inline-block;
-	margin-left: 2%;
-	margin-right: 2%;
+	margin-left: 1%;
+	margin-right: 1%;
 }
 
 .btn-footer {
@@ -164,7 +165,7 @@ hr {
 	}
 
 	hr {
-		border: 0.6px solid #0e0d0d;
-		background-color: #0e0d0d;
+		border: 0.6px solid #1e1d1d;
+		background-color: #1e1d1d;
 	}
 }
