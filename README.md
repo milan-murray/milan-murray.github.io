@@ -2,7 +2,7 @@
 
 Thanks for stopping by! 
 
-¡Gracias por echando un vistazo!
+¡Gracias por echar un vistazo!
 
 ## TODO:
 
