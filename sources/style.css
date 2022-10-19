@@ -8,7 +8,7 @@ hr.no-m {
 }
 
 * {
-	font-family: 'Lato', sans-serif;
+	font-family: Cantarell, 'Lato', sans-serif;
 }
 
 body {
@@ -92,7 +92,7 @@ button {
 }
 
 hr {
-	width: 80%;
+	width: 95%;
 	border: 0.6px solid rgb(135, 135, 135);
 	background-color: rgb(135, 135, 135);
 }
@@ -168,6 +168,11 @@ hr {
 	}
 
 	hr {
+		border: 0.6px solid #e8e5e5;
+		background-color: #e1dcdc;
+	}
+
+	hr.no-m {
 		border: 0.6px solid #1e1d1d;
 		background-color: #1e1d1d;
 	}
