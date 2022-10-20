@@ -7,11 +7,8 @@ hr.no-m {
 	margin: 0;
 }
 
-* {
-	font-family: Cantarell, sans-serif;
-}
-
 body {
+	font-family: Cantarell, Lato, sans-serif;
 	padding-left: 3%;
 	padding-right: 3%;
 }
