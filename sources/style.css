@@ -73,8 +73,19 @@ p.indent {
 	padding-bottom: 1em;
 }
 
-.display-inline-block {
+.display-inline-block-list {
 	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+	min-width: 15em;
+}
+
+.display-inline-block-btn {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.x-spacing {
 	margin-left: 1%;
 	margin-right: 1%;
 }
