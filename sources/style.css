@@ -39,7 +39,6 @@ body {
 }
 
 .clearfix {
-	/* overflow: auto; */
 	width: 100%;
 	content: "";
 	clear: both;
@@ -89,25 +88,26 @@ button {
 	padding: 0.8em;
 	margin-top: 1em;
 	font-size: 95%;
+	font-weight: bold;
 }
 
 hr {
 	width: 95%;
-	border: 0.6px solid rgb(135, 135, 135);
-	background-color: rgb(135, 135, 135);
+	border: 0.6px solid rgb(111, 111, 111);
+	background-color: rgb(111, 111, 111);
 }
 
 .card.shadow {
-	box-shadow: 0 0 3em #2b2b2b;
+	box-shadow: 0 0 3em #aaaaaa;
 }
 
-.btn-footer-colour {
-	background-color: rgb(250, 250, 250);
-	border-color: rgb(92, 101, 109);
+.btn-colour {
+	background-color: #FFFEFE;
+	border-color: #5e5e5e;
 }
 
-.btn-footer:hover {
-	background-color: rgb(221, 226, 231);
+.btn-colour:hover {
+	background-color: #d2e3f3;
 }
 
 .text-colour {
@@ -115,7 +115,7 @@ hr {
 }
 
 .bg-secondary {
-	background-color: rgb(51, 58, 64);
+	background-color: rgb(221, 222, 223);
 }
 
 .bg-main {
@@ -123,10 +123,6 @@ hr {
 }
 
 .bg-card-header {
-	background-image: radial-gradient(rgb(250, 250, 250), rgb(237, 239, 241));
-}
-
-.btn-color {
 	background-image: radial-gradient(rgb(250, 250, 250), rgb(237, 239, 241));
 }
 
@@ -146,18 +142,12 @@ hr {
 
 	.bg-card-header {
 		background-image: radial-gradient(rgb(42, 47, 52), rgb(40, 45, 50));
-		/* background-image: radial-gradient(rgb(41, 46, 50), rgb(36, 40, 44)); */
 	}
-	
+
 	.btn-colour {
-		/* background-image: radial-gradient(rgb(42, 47, 52), rgb(40, 45, 50)); */
 		border-color: rgb(161, 170, 178);
 		background-color: rgb(42, 47, 52);
 	}
-
-	/* .btn-footer-bg {
-		background-image: radial-gradient(rgb(42, 47, 52), rgb(40, 45, 50));
-	}*/
 
 	.btn-colour:hover {
 		background-color: rgb(65, 72, 78);
