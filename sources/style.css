@@ -175,3 +175,21 @@ hr {
 		background-color: #1e1d1d;
 	}
 }
+
+@media only screen and (max-width: 500px) {
+	#header-name {
+		font-size: medium;
+	}
+	
+	#header-lang, #header-title {
+		font-size: x-small;
+	}
+	
+	#header-lang {
+		padding-top: 0.8em;
+	}
+
+	#header-title {
+		padding-right: 1em;
+	}
+}
