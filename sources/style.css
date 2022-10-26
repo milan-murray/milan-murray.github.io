@@ -176,20 +176,20 @@ hr {
 	}
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 	#header-name {
 		font-size: medium;
 	}
 	
-	#header-lang, #header-title {
+	#header-lang {
 		font-size: x-small;
 	}
 	
-	#header-lang {
-		padding-top: 0.8em;
+	#header-title {
+		font-size: small;
 	}
 
-	#header-title {
-		padding-right: 1em;
+	.card-body .card-footer {
+		font-size: smaller;
 	}
 }
