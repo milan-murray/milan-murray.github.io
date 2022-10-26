@@ -4,7 +4,6 @@ Thanks for stopping by!
 
 ¡Gracias por echar un vistazo!
 
-## TODO:
+# TODO:
 
-- Update content to include experience of 2022
-- Create spanish alternative
+Replace flag emojis in header
