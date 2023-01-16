@@ -6,6 +6,8 @@ Thanks for stopping by!
 
 # Links
 
+[CV Hosted Site](milan-murray.github.io)
+[Portfolio](milan-murray.github.io/portfolio)
 [LinkedIn](https://www.linkedin.com/in/milan-murray)
 
 # TODO:
