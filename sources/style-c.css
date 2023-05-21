@@ -20,14 +20,14 @@ body {
 }
 
 img {
-	margin-top: 0.5em;
-	max-width: 6em;
-	background-color: rgb(175, 175, 175);
-	border: rgb(175, 175, 175) 2px solid;
+	/* margin-top: 0.5em; */
+	max-width: 15.5em;
+	/* background-color: rgb(75, 75, 75); */
+	/* border: rgb(255, 255, 255) 3px solid; */
 	border-radius: 0.3em;
 }
 
-ul {
+#languages {
 	list-style-type: none;
 }
 
@@ -36,24 +36,30 @@ h4 {
 	/* text-decoration: underline rgb(69, 69, 69); */
 }
 
+/* .block-small
+{
+	background-color: rgb(225, 121, 120);
+} */
+
 .block-item {
 	border-style: none;
-	border-color: rgb(175, 175, 175);
+	border-color: rgb(190, 190, 190);
 	/* background-color: rgb(250, 250, 250); */
 	border-width: 2px;
-	border-radius: 0.2em;
+	border-radius: 0.3em;
 	border-top: none;
 	border-left: none;
-	padding-top: 0.3em;
-	padding-bottom: 0.3em;
-	padding-inline-start: 0.3em;
-	padding-inline-end: 0.3em;
-	margin-bottom: 1em;
+	padding: 0.6em;
+	margin-bottom: 0.5em;
 	/* box-shadow: 0em 0em 1em rgb(230, 230, 230); */
 }
 
-.ml-1 {
+.ml-2 {
 	margin-left: 2em;
+}
+
+.mt-05 {
+	margin-top: 0.5em;
 }
 
 .card {
@@ -61,8 +67,8 @@ h4 {
 }
 
 .card-header {
-	display: grid;
-	grid-template-columns: 10% 75% 15%;
+	/* display: grid; */
+	/* grid-template-columns: 15% 70%; */
 	border-radius: 0.3em 0.3em 0 0;
 	padding-top: 0.3em;
 	padding-inline-start: 1em;
@@ -76,9 +82,10 @@ h4 {
 
 .card-body {	
 	display: flex;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	padding-bottom: 1em;
+	/* padding-left: 0.5em; */
+	/* padding-right: 0.5em; */
+	/* padding-bottom: 1em; */
+	/* background-color: rgb(234, 234, 234); */
 }
 
 .clearfix {
@@ -93,14 +100,19 @@ h4 {
 }
 
 .w-30 {
-	margin-top: 1em;
-	width: 30%;
+	background-color: rgb(226, 226, 226);
+	/* color: #ffffff; */
+	padding-inline-start: 1%;
+	padding-inline-end: 1%;
+	padding-top: 0.5em;
+	width: 28%;
 }
 
 .w-70 {
+	margin-inline-end: 2%;
 	margin-top: 1em;
-	margin-inline-start: 1em;
-	width: 69%;
+	margin-inline-start: 1.5em;
+	width: 67%;
 }
 
 .float-start {
@@ -122,12 +134,6 @@ h4 {
 
 p.indent {
 	text-indent: 1.5em;
-}
-
-.card-footer {
-	border-radius: 0 0 0.3em 0.3em;
-	padding-top: 0.2em;
-	padding-bottom: 1em;
 }
 
 .display-inline-block-list {
@@ -158,8 +164,8 @@ button {
 
 hr {
 	width: 95%;
-	border: 0.6px solid rgb(175, 175, 175);
-	background-color: rgb(175, 175, 175);
+	border: 0.6px solid rgb(190, 190, 190);
+	background-color: rgb(190, 190, 190);
 }
 
 .card.shadow {
@@ -180,11 +186,11 @@ hr {
 }
 
 .bg-secondary {
-	background-color: rgb(221, 222, 223);
+	background-color: rgb(209, 211, 213);
 }
 
 .bg-main {
-	background-color: rgb(240, 240, 240);
+	/* background-color: rgb(240, 240, 240); */
 	background-color: rgb(250, 250, 250);
 }
 
