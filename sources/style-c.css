@@ -54,7 +54,7 @@ h4.sub {
 	border-top: none;
 	border-left: none;
 	padding: 0.6em;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.3em;
 	/* box-shadow: 0em 0em 1em rgb(230, 230, 230); */
 }
 
@@ -104,7 +104,7 @@ h4.sub {
 }
 
 .w-30 {
-	background-color: rgb(226, 226, 226);
+	background-color: rgb(232, 232, 232);
 	/* color: #ffffff; */
 	padding-inline-start: 1%;
 	padding-inline-end: 1%;
