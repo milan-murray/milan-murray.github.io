@@ -27,6 +27,15 @@ img {
 	border-radius: 0.3em;
 }
 
+a.no-h {
+	text-decoration: none;
+	/* color: black; */
+}
+
+a.no-h:visited {
+	color: #0000EE;
+}
+
 #languages {
 	list-style-type: none;
 }
