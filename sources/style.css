@@ -23,6 +23,8 @@ body {
 	padding-inline-start: 2em;
 	padding-inline-end: 2em;
 	padding-bottom: 0.3em;
+	border: rgb(111, 111, 111) 0.1em;
+	border-style: none none solid none;
 }
 
 .text-center {
@@ -60,7 +62,7 @@ body {
 	margin-right: auto;
 	margin-top: 2em;
 	margin-bottom: 2em;
-	max-width: 70em;
+	max-width: 60em;
 }
 
 p.indent {
@@ -95,8 +97,21 @@ button {
 	border-style: solid;
 	padding: 0.8em;
 	margin-top: 1em;
-	font-size: 95%;
-	font-weight: bold;
+	cursor: pointer;
+	font-size: small;
+}
+
+button:hover {
+	background-color: #FFFEFE;
+}
+
+button.disabled {
+	background-color: rgb(209, 211, 213);
+	cursor: default;
+}
+
+button.disabled:hover {
+	background-color: rgb(209, 211, 213);
 }
 
 hr {
@@ -123,7 +138,7 @@ hr {
 }
 
 .bg-secondary {
-	background-color: rgb(221, 222, 223);
+	background-color: rgb(209, 211, 213);
 }
 
 .bg-main {
@@ -135,7 +150,7 @@ hr {
 }
 
 /* Dark mode */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 	.bg-secondary {
 		background-color: #1d1c1c;
 	}
@@ -174,22 +189,4 @@ hr {
 		border: 0.6px solid #1e1d1d;
 		background-color: #1e1d1d;
 	}
-}
-
-@media only screen and (max-width: 600px) {
-	#header-name {
-		font-size: medium;
-	}
-	
-	#header-lang {
-		font-size: x-small;
-	}
-	
-	#header-title {
-		font-size: small;
-	}
-
-	.card-body .card-footer {
-		font-size: smaller;
-	}
-}
+} */
