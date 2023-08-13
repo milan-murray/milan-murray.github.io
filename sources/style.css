@@ -2,19 +2,73 @@ html {
 	scroll-behavior: smooth;
 }
 
-hr.no-m {
-	width: 99.8%;
-	margin: 0;
-}
-
 body {
 	font-family: Cantarell, Lato, sans-serif;
 	padding-inline-start: 3%;
 	padding-inline-end: 3%;
 }
 
-.card {
+button {
+	background-color: #e9e8e8;
 	border-radius: 0.3em;
+	border-style: solid;
+	padding: 0.5em;
+	margin-top: 1em;
+	cursor: pointer;
+	font-size: small;
+}
+
+button:hover {
+	background-color: #FFFEFE;
+}
+
+button.disabled {
+	background-color: rgb(209, 211, 213);
+	cursor: default;
+}
+
+button.disabled:hover {
+	background-color: rgb(209, 211, 213);
+}
+
+h4 {
+	text-decoration: underline;
+}
+
+h4.sub {
+	text-decoration: none;
+	margin-top: 0;
+}
+
+p.indent {
+	text-indent: 1.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #0000EE;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+tr {
+	border-bottom: 1px solid #ddd;
+}
+
+.card {
+	border-radius: 0.5em;
+	margin-bottom: 3em;
 }
 
 .card-header {
@@ -22,7 +76,7 @@ body {
 	padding-top: 0.3em;
 	padding-inline-start: 2em;
 	padding-inline-end: 2em;
-	padding-bottom: 0.3em;
+	border-bottom: rgb(111, 111, 111) 0.1em solid;
 }
 
 .text-center {
@@ -32,6 +86,7 @@ body {
 .card-body {
 	padding-inline-start: 2em;
 	padding-inline-end: 2em;
+	padding-top: 0.3em;
 	padding-bottom: 1em;
 }
 
@@ -48,6 +103,7 @@ body {
 
 .float-start {
 	float: left;
+	padding-inline-end: 2em;
 }
 
 .float-end {
@@ -60,12 +116,9 @@ body {
 	margin-right: auto;
 	margin-top: 2em;
 	margin-bottom: 2em;
-	max-width: 70em;
+	max-width: 60em;
 }
 
-p.indent {
-	text-indent: 1.5em;
-}
 
 .card-footer {
 	border-radius: 0 0 0.3em 0.3em;
@@ -74,6 +127,7 @@ p.indent {
 }
 
 .display-inline-block-list {
+	margin-top: 0;
 	display: inline-block;
 	vertical-align: top;
 	width: 49%;
@@ -90,23 +144,17 @@ p.indent {
 	margin-right: 1%;
 }
 
-button {
-	border-radius: 0.3em;
-	border-style: solid;
-	padding: 0.8em;
-	margin-top: 1em;
-	font-size: 95%;
-	font-weight: bold;
-}
-
-hr {
-	width: 95%;
-	border: 0.6px solid rgb(111, 111, 111);
-	background-color: rgb(111, 111, 111);
-}
-
 .card.shadow {
 	box-shadow: 0 0 3em #aaaaaa;
+}
+
+.header-item {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.header-item div {
+	width: em;
 }
 
 .btn-colour {
@@ -123,7 +171,7 @@ hr {
 }
 
 .bg-secondary {
-	background-color: rgb(221, 222, 223);
+	background-color: rgb(209, 211, 213);
 }
 
 .bg-main {
@@ -135,7 +183,7 @@ hr {
 }
 
 /* Dark mode */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 	.bg-secondary {
 		background-color: #1d1c1c;
 	}
@@ -174,22 +222,4 @@ hr {
 		border: 0.6px solid #1e1d1d;
 		background-color: #1e1d1d;
 	}
-}
-
-@media only screen and (max-width: 600px) {
-	#header-name {
-		font-size: medium;
-	}
-	
-	#header-lang {
-		font-size: x-small;
-	}
-	
-	#header-title {
-		font-size: small;
-	}
-
-	.card-body .card-footer {
-		font-size: smaller;
-	}
-}
+} */
