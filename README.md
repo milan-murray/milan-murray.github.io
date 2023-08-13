@@ -1,9 +1,5 @@
-# My CV Repository
+# CV Repository
 
-Thanks for stopping by! 
+## Site available at: 
 
-¡Gracias por echar un vistazo!
-
-# TODO:
-
-Replace flag emojis in header
+	https://milan-murray.github.io/
