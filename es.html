@@ -3,8 +3,6 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Fa fa icons -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,184 +11,580 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cantarell">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 
-	<link rel="stylesheet" href="sources/style-c.css" />
+	<link rel="stylesheet" href="sources/style.css" />
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>M Murray CV</title>
 </head>
 
-<body class="bg-secondary">
+<body class="bg-secondary text-colour">
 	<div class="container">
 		<div class="card bg-main">
 			<div class="card-header bg-card-header">
 				<div class="text-center">
-					<h2>Milan Murray</h2>
-					<h3>Desarrollador de software</h3>
+					<h2 id="header-name">Milan Murray</h2>
+				</div>
+				<div class="header-item">
+					<div>
+						<p><i class="fa fa-envelope fa-fw" aria-hidden="true"></i>
+							milan-murray@outlook.ie</p>
+					</div>
+					<div>
+						<p><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>
+							Based in Dublin, Ireland</p>
+					</div>
+				</div>
+			</div>
+			<div class="card-body">
+				<div class="text-center">
+					<a href="./index.html"><button>English 🇮🇪 (Native)</button></a>
+					<a href="./es.html"><button>Spanish 🇪🇸 (Intermediate)</button></a>
+					<a href="#"><button class="disabled">German 🇩🇪 (Beginner)</button></a>
+					<a href="#"><button class="disabled">Croatian 🇭🇷 (Beginner)</button></a>
+				</div>
+
+				<h4 id="PS">Personal Statement</h4>
+				<p class="indent">
+					I am very passionate about <b>technology and programming</b> as well as
+					learning about <b>languages and cultures</b>.
+					I have experience in the development of computer software,
+					assembly of computer hardware as well as a
+					strong understanding of operating systems.
+					I am confident in my ability to <b>adapt to new working environments</b>
+					and maintain a <b>quality and consistent work ethic</b>. From studying
+					in TUD in Ireland, to UPV in Spain during Erasmus, I'm
+					excited and open to future opportunities to advance my career.
+				</p>
+				<h4>Key Skills</h4>
+				<p>
+					<b>Teamwork; Team Leader;</b> I have acquired teamwork skills
+					throughout various projects I have undertaken during my studies by working
+					alongside teammates to design and develop solutions to problems.
+				</p>
+				<p>
+					<b>Problem-solving;</b> From engaging in many coding problems and projects
+					during my studies, as well participating in online services such as
+					«<a href="onlinejudge.org">Online Judge</a>» and
+					«<a href="leetcode.com">LeetCode</a>», I have been able to advance my problem
+					solving skills.
+				</p>
+				<p>
+					<b>Teaching; Interpersonal;</b> I am grateful to have been able to share my
+					understanding of computing topics with my peers to help them with challenging
+					programming problems whenever they were stuck. Beyond this I have experience of
+					meeting and connecting with people in new environments such as during erasmus
+					placement and language learning activities.
+				</p>
+
+				<h4>Technical Skills</h4>
+
+				<div class="display-inline-block-list">
+					<h4 class="sub">Programming Languages</h4>
+					<ul>
+						<li>Python</li>
+						<li>C++</li>
+						<li>C#</li>
+						<li>Rust</li>
+						<li>Java</li>
+						<li>SQL</li>
+						<li>Shell Scripting</li>
+						<li>HTML & CSS</li>
+					</ul>
+					<h4 class="sub">Computer Systems Experience</h4>
+					<ul>
+						<li>Linux & Windows CLI</li>
+						<li>Cloud Computing</li>
+						<li>Hardware Components</li>
+						<li>BIOS Configuration</li>
+					</ul>
+					<h4 class="sub">Data Processing</h4>
+					<ul>
+						<li>LibreOffice & Microsoft Office Suites</li>
+						<li>Tableau</li>
+						<li>Jupyter Notebook</li>
+						<li>MongoDB</li>
+					</ul>
+				</div>
+				<div class="display-inline-block-list">
+					<h4 class="sub">Development Tools</h4>
+					<ul>
+						<li>Git</li>
+						<li>VIM</li>
+						<li>Cloud Computing</li>
+						<li>Docker</li>
+						<li>Android Studio</li>
+						<li>Visual Studio Code</li>
+						<li>Godot/Unity Engines</li>
+					</ul>
+					<h4 class="sub">Computer Problem Diagnosis</h4>
+					<ul>
+						<li>Component Assembly</li>
+						<li>BIOS Configuration</li>
+						<li>Virtualisation & Containerisation</li>
+						<li>Computer hardware monitoring software</li>
+					</ul>
+					<h4 class="sub">Media Editing</h4>
+					<ul>
+						<li>Blender (Video editing & Object modelling)</li>
+						<li>GNU Image Manipulation Program</li>
+						<li>Open Broadcast Software</li>
+					</ul>
+				</div>
+
+				<h4>Education</h4>
+				<p>
+					Bachelor of Science (First Class Honours) Computer Science with Spanish 2023
+				</p>
+				<small>Final GPA: <b>3.29</b></small>
+				<p>
+					<small>
+						Please see <a href="#APPENDIX">appendix</a> for a complete list of
+						modules and results.
+					</small>
+				</p>
+				<h4 class="sub">Previous Education</h4>
+				<p>Leaving Certificate | Ballinteer Community School | GRADUATED 2019</p>
+				<p><small>Results available upon request.</small></p>
+
+				<h4>Significant Projects</h4>
+				<h4 class="sub">TomaNota - Final Year Project</h4>
+				<p><b>Description:</b>
+					An individual project utilizing several cloud services from Google Cloud
+					and Microsoft Azure that communicate with a Blazor web application and mobile
+					application. Users could store their notes, carry out exams and track
+					their progress over time. Features of the application include time based note
+					marking, translations and synonyms, account authentication and data
+					visualisation of user progress.
+					This project made use of an Azure SQL database which
+					is modified by a C# web API, as well as Google Cloud Functions which allow for
+					determining correct answers during the quiz and how the marks should be
+					modified.
+				</p>
+				<p>
+					<b>Challenges Encountered:</b>
+				<ul>
+					<li>Deciding how user's notes should be stored such that they can be accessed
+						across multiple devices.</li>
+					<li>Ensuring unicode was stored correctly for multiple languages.</li>
+				</ul>
+				</p>
+				<p><b>Technologies Used:</b>
+					DotNet, C#, Blazor, Azure SQL, NLTK & WordNet, Python, Google Cloud
+					Functions, HTML & CSS, Bootstrap and APIs.
+				</p>
+
+				<h4>Professional Experience</h4>
+				<ul>
+					<li>
+						Residential Moving Assistant with A-OK MOVERS - 2016 to 2019
+					</li>
+					<li>
+						Retail Assistant with PENNYS 2016
+					</li>
+					<li>
+						Team based programming project with ESERO 2021
+					</li>
+					<li>
+						Team based hackathon with TUD and Amazon 2022
+					</li>
+				</ul>
+
+				
+				<div class="display-inline-block-list">
+					<h4>Achievements</h4>
+					<ul>
+						<li>Piano Grade 3, live stage performances</li>
+						<li>Spanish Level B1-B2 in OLS Erasmus+ 2022</li>
+						<li>Completion of Duolingo Spanish Course</li>
+						<li>Participated in Trinity College STEM Program</li>
+					</ul>
+				</div>
+
+				<div class="display-inline-block-list">
+					<h4>Interests</h4>
+					<ul>
+						<li>Digital experiences, gaming, virtual reality</li>
+						<li>Marathon running and biking</li>
+						<li>Travel and languages</li>
+					</ul>
+
+				</div>
+
+				<h4>References</h4>
+				<b>References available upon request</b>
+			</div>
+		</div>
+		<div id="APPENDIX" class="card bg-main">
+			<div class="card-body">
+				<h4>Appendix</h4>
+				<div>
+					<h4 class="sub">Year 1</h4>
+					<table class="table" aria-describedby="year1">
+						<thead>
+							<tr>
+								<th scope="col">Module</th>
+								<th scope="col">Grade</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Software Development 1</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Software Development 2</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Systems Analysis</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>Spanish 1</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Spanish 2</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Database Fundamentals</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Statistics</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Operating Systems Fundamentals</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Computer Architecture</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Visual Design and User Experience</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Discrete Mathematics</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Critical Skills Development</td>
+								<td>B+</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div>
+					<h4 class="sub">Year 2</h4>
+					<table class="table" aria-describedby="year2">
+						<thead>
+							<tr>
+								<th scope="col">Module</th>
+								<th scope="col">Grade</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Social Media Communications</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Project</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Software Development 3</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Software Development 4</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Spanish 3</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Spanish 4</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Management Science</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Software Quality Assurance Testing</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Database Administration & Analysis</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Advanced Database Technologies</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Discrete Mathematics 2</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Client Side Web Development</td>
+								<td>A</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div>
+					<h4 class="sub">Year 3</h4>
+					<table class="table" aria-describedby="year3">
+						<thead>
+							<tr>
+								<th scope="col">Module</th>
+								<th scope="col">Grade</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Spanish 5</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Operating Systems</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Server-side Web Development</td>
+								<td>C+</td>
+							</tr>
+							<tr>
+								<td>Cloud Services and Distributed Computing</td>
+								<td>C+</td>
+							</tr>
+							<tr>
+								<td>Big Data Technologies</td>
+								<td>B-</td>
+							</tr>
+							<tr>
+								<td>Data Structures and Algorithms</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Semester Abroad</td>
+								<td>PS</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div>
+					<h4 class="sub">Year 4</h4>
+					<table class="table" aria-describedby="year4">
+						<thead>
+							<tr>
+								<th scope="col">Module</th>
+								<th scope="col">Grade</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Interactive Media Design</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>Information Management</td>
+								<td>B-</td>
+							</tr>
+							<tr>
+								<td>Enterprise Application Development 1</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>Enterprise Application Development 2</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Computational Linguistics</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Enterprise Performance Architecture</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Project</td>
+								<td>B+</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<body class="bg-secondary text-colour">
+	<div class="container">
+		<div class="card bg-main shadow">
+			<div class="card-header bg-card-header">
+				<div class="clearfix">
+					<div class="float-start">
+						<h2 id="header-name">Milan Murray</h2>
+						<h3 id="header-title">Desarrollador de software</h3>
+					</div>
+					<div class="float-end">
+						<h3 class="text-center" id="header-title">Idiomas</h4>
+							<h4 class="text-center" id="header-lang">EN 🇮🇪 ES 🇪🇸</h4>
+					</div>
 				</div>
 			</div>
 			<hr class="no-m">
-			<div class="card-body">
-				<div class="w-30">
-					<div class="block-item block-small">
-						<img alt="hero-element" src="media/mi4.jpg">
-					</div>
-					<div class="block-item block-small">
-						<i class="fa fa-envelope fa-fw" aria-hidden="true"></i>
-						milan-murray@outlook.ie
-						<br>
-						<i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>
-						Dublín, Irlanda
-						<br>
-						<i class="fa fa-github fa-fw" aria-hidden="true"></i>
-						<small>
-							<a href="https://github.com/milan-murray" target="_blank">
-								https://github.com/milan-murray
+			<div class="card-body mx-1">
+				<p class="text-center">Correo: <strong>m-murray-cv@outlook.ie</strong></p>
+				<p class="text-center">De Dublín, Irlanda</p>
 
-							</a>
-						</small>
-						<br>
-						<i class="fa fa-linkedin-square fa-fw" aria-hidden="true"></i>
-						<small>
-							<a href="https://www.linkedin.com/in/milan-murray" target="_blank">
-								https://www.linkedin.com/in/milan-murray
-							</a>
-						</small>
-					</div>
-					<div class="block-item block-small">
-						<h4>Idiomas</h4>
-						<ul>
-							<li><a href="./index.html" class="no-h">Inglés 🇮🇪 (Nativo)</a></li>
-							<li><a href="./es.html" class="no-h">Español 🇪🇸 (Intermedio)</a></li>
-							<li>Croata 🇭🇷 (Principio)</li>
-							<li>Alemán 🇩🇪 (Principio)</li>
-						</ul>
-					</div>
-					<div class="block-item block-small">
-						<h4>Experiencia Programando</h4>
-						<ul>
-							<li>Python</li>
-							<li>C++</li>
-							<li>C#</li>
-							<li>Rust</li>
-							<li>Java</li>
-							<li>SQL</li>
-							<li>Shell Scripting</li>
-							<li>HTML y CSS</li>
-						</ul>
-					</div>
-					<div class="block-item block-small">
-						<h4>Proyectos</h4>
-						<ul>
-							<li><b>TomaNota</b> - Application de aprendizaje de idiomas
-								<ul>
-									<li>C#, Blazor, Cloud Functions, SQL DB</li>
-								</ul>
-							</li>
-							<li><b>SuperWorth!</b> - Sitio web de comercio electrónico
-								<ul>
-									<li>Django, Python</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<div class="block-item block-small">
-						<h4>Referencias</h4>
-						<p><b>Keith Quille</b> - coordinador de actividad ESERO y Hackathons</p>
-						<p><b>Eileen Costelloe</b> - docente de ciencias de ordenadores en TUD</p>
-						<p><b>William Murray</b> - fundador de A-OK Movers</p>
-						<small><b>Detalles de contacto disponibles si se piden</b></small>
-					</div>
+				<h3 id="PS">Acerca de mi</h3>
+				<p class="indent">
+					Me apasiona la <b>tecnología y la programación</b>. Como ejemplo puedo decir
+					que tengo experiencia en
+					<b>la construcción y montaje de hardware en ordenadores</b>,
+					tanto como un amplio conocimiento fundamental en software. Confío en mis
+					habilidades <b>para adaptarme a nuevos entornos de trabajo</b>
+					y <b>mantener una ética de trabajo constante y de calidad</b> gracias a la experiencia de estudiar
+					en el extranjero en España.
+				</p>
+				<p class="indent">
+					De momento estoy estudiando
+					<strong>Ciencia de Ordenadores e Idiomas (grado de honor)</strong> en
+					<b>Technological University Dublin</b>. Tengo experiencia con muchos
+					<b>lenguajes de código de programación</b>,
+					<b>brainstorming</b> y <b>resolución de problemas</b>
+					en equipo o individual. Al programar soy diligente con mis esfuerzos para
+					crear programas <b>optimizados siguiendo la mejor práctica</b>. Disfruto hablar
+					<b>español</b> y siempre tengo ganas de mejorar la compresión del idioma. Deseo
+					seguir una carrera en <b>el area de desarrollo de software</b>.
+				</p>
+				<p class="indent">
+					En 2022 cursé un semestre de <b>Erasmus</b> en Valencia, en la Universitat 
+					Politècnica de València. Estoy muy agradecido por haber tenido esta oportunidad,
+					fue una experiencia muy positiva para mi crecimiento personal en la cual conocí 
+					a nuevas personas y pude emprender nuevos temas relacionados con mis estudios.
+				</p>
+
+				<div class="display-inline-block-list">
+					<h4 id="SOSE">Experiencia con software</h4>
+					<ul>
+						<li>Git</li>
+						<li>VIM</li>
+						<li>Visual Studio Code</li>
+						<li>Blender</li>
+						<li>Godot game engine</li>
+						<li>Unity game engine</li>
+						<li>Docker</li>
+						<li>Oracle VirtualBox</li>
+						<li>GNU Image Manipulation Program</li>
+						<li>Open Broadcast Software</li>
+						<li>Video Editing Software</li>
+						<li>Tableau</li>
+						<li>LibreOffice Suite & Microsoft Office Suite</li>
+						<li>Computer hardware monitoring software</li>
+						<li>MongoDB</li>
+					</ul>
 				</div>
-				<span class="v-line"></span>
-				<div class="w-70">
-					<div class="block-item">
-						<h4>Acerca de mi</h4>
-						<p class="indent">
-							Me apasiona la <b>tecnología y la programación</b> y me amo aprender
-							sobre <b>culturas e idiomas</b>.
-							Confío en mis
-							habilidades <b>para adaptarme a nuevos entornos de trabajo</b>
-							y <b>mantener una ética de trabajo constante y de calidad</b>.
-							Desde estudiar en <b>TUD</b>, Irlanda, hasta la <b>UPV</b> en España durante <b>Erasmus</b>,
-							estoy entusiasmado y abierto a futuras oportunidades para avanzar en mi carrera.
-						</p>
-					</div>
-					<div class="block-item">
-						<h4>Estudios</h4>
-						<h4 class="sub">Bachelor de Ciencia (grado de honor) Informática con el Español 2023
-							(Previsto)</h4>
-						<p>Technological University Dublin, Irlanda, 2019 - 2023</p>
-						<h4 class="sub">Erasmus</h4>
-						<p>Universitat Politècnica de València, España, 2022</p>
-						<h4 class="sub">Leaving Certificate</h4>
-						<p>Ballinteer Community School, Irlanda, 2013 - 2019</p>
-					</div>
-					<div class="block-item">
-						<h4>Competencias</h4>
-						<div class="skill-grid">
-							<div>
-								<h4 class="sub">Codificación</h4>
-								<ul>
-									<li>Git</li>
-									<li>VIM</li>
-									<li>Cloud Computing</li>
-									<li>Docker</li>
-									<li>Visual Studio Code</li>
-									<li>Godot/Unity motores del juego</li>
-								</ul>
-							</div>
-							<div>
-								<h4 class="sub">Edición multimedia</h4>
-								<ul>
-									<li>Blender (Edición de vídeo y modelado de objetos)</li>
-									<li>GNU Image Manipulation Program</li>
-									<li>Open Broadcast Software</li>
-								</ul>
-							</div>
-							<div>
-								<h4 class="sub">Tratamiento de datos</h4>
-								<ul>
-									<li>LibreOffice & Microsoft Office Suites</li>
-									<li>Tableau</li>
-									<li>Jupyter Notebook</li>
-									<li>MongoDB</li>
-								</ul>
-							</div>
-							<div>
-								<h4 class="sub">Diagnóstico informático</h4>
-								<ul>
-									<li>Montaje de componentes</li>
-									<li>Configuración de BIOS</li>
-									<li>Virtualización y contenedores</li>
-									<li>Software de supervisión de equipos informáticos</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="block-item">
-						<h4>Experiencia</h4>
-						<p>TUD Hackathon con Amazon AWS 2022</p>
-						<p>Proyecto de programación con ESERO verano 2021</p>
-						<p>Asistencia de mudanzas con A-OK MOVERS 2016 a 2019</p>
-					</div>
-					<div class="block-item">
-						<h4>Intereses y aficiones</h4>
-						<div class="skill-grid">
-							<div>
-								<ul>
-									<li>Viajar</li>
-									<li>Ciclismo y fitness</li>
-								</ul>
-							</div>
-							<div>
-								<ul>
-									<li>Experiencias digitales, juegos, realidad virtual</li>
-									<li>Música, piano</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+				<div class="display-inline-block-list">
+					<h4>Experiencia Programando</h4>
+					<ul>
+						<li>C#</li>
+						<li>Rust</li>
+						<li>Python</li>
+						<li>C++</li>
+						<li>Shell Scripting</li>
+						<li>JavaScript</li>
+						<li>HTML & CSS</li>
+						<li>Java</li>
+						<li>SQL</li>
+						<li>NLTK</li>
+						<li>Fluent</li>
+					</ul>
+					
+					<h4>Experiencia con Sistemas de Ordenadores</h4>
+					<ul>
+						<li>Linux y Windows CLI</li>
+						<li>Computación en la Nube</li>
+						<li>Hardware Components</li>
+						<li>BIOS Configuration</li>
+					</ul>
 				</div>
+
+				<h3 id="ED">Estudios</h3>
+				<p>
+					<b>
+						BA Ciencia de Ordenadores e Idiomas (grado de honor) (2023)
+					</b>
+				</p>
+				<h4>Estudios Previos</h4>
+				<p>Leaving Certificate | Ballinteer Community School (BCS) | GRADUADO 2019</p>
+				<p>Las calificaciones están disponibles si se piden.</p>
+
+				<hr>
+				<h3 id="PE">Experiencia Professional</h3>
+				<h4>
+					Asistencia de mudanzas con A-OK MOVERS - 2016 a 2019
+				</h4>
+				<h4>
+					Retail con Primark 2016
+				</h4>
+				<h4>
+					Proyecto de programación con ESERO 2021
+				</h4>
+				<h4>
+					Hackathon con TUD y Amazon 2022
+				</h4>
+
+				<hr>
+				<h3 id="REF">Referencias Disponibles</h3>
+				<p>
+					Keith Quille, docente de ciencias de ordenadores en TUD.
+					Coordinador de actividad ESERO y Hackathons.
+				</p>
+				<p>
+					Eileen Costelloe, docente de ciencias de ordenadores en TUD.
+				</p>
+				<p>
+					William Murray, Fundador de A-OK Movers.
+				</p>
+				<p><b>Detalles de contacto disponibles si se piden.</b></p>
 			</div>
+			<hr class="no-m">
+			<footer class="card-footer card-footer-bg text-center">
+				<div class="display-inline-block-btn x-spacing">
+					<a href="media/MilanMurray_CV_ES.pdf" target="_blank" download>
+						<button class="btn-colour text-colour">
+							<i class="fa fa-download"></i>
+							Descargar PDF
+						</button>
+					</a>
+				</div>
+				<div class="display-inline-block-btn x-spacing">
+					<a href="./index.html">
+						<button class="btn-colour text-colour">
+							<i class="fa fa-language"></i>
+							View in English
+						</button>
+					</a>
+				</div>
+				<div class="display-inline-block-btn x-spacing">
+					<a href="https://github.com/milan-murray/milan-murray.github.io" target="_blank">
+						<button class="btn-colour text-colour">
+							<i class="fa fa-github"></i>
+							Ver en GitHub
+						</button>
+					</a>
+				</div>
+			</footer>
 		</div>
 	</div>
 </body>
