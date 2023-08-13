@@ -50,8 +50,19 @@ a {
 a:visited {
 	color: #0000EE;
 }
+
 a:hover {
 	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+tr {
+	border-bottom: 1px solid #ddd;
 }
 
 .card {
@@ -64,8 +75,7 @@ a:hover {
 	padding-top: 0.3em;
 	padding-inline-start: 2em;
 	padding-inline-end: 2em;
-	border: rgb(111, 111, 111) 0.1em;
-	border-style: none none solid none;
+	border-bottom: rgb(111, 111, 111) 0.1em solid;
 }
 
 .text-center {
